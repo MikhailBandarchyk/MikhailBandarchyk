@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'LavishlyYours-Regular';
+  src: url('LavishlyYours-Regular.eot');
+  src: url('LavishlyYours-Regular.eot?#iefix') format('embedded-opentype'),
+       url('LavishlyYours-Regular.svg#LavishlyYours-Regular') format('svg'),
+       url('LavishlyYours-Regular.ttf') format('truetype'),
+       url('LavishlyYours-Regular.woff') format('woff'),
+       url('LavishlyYours-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
