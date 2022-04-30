@@ -5,35 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .aaa,.bbb,.ccc,.ddd,.eee{
-            background: url(img/star0.png);
-            width: 300px;
-            height: 100px;
-            background-repeat:no-repeat;
-            display: inline-block;
-            
-        }
-        .aaa,.bbb,.ccc,.ddd,.eee:hover{
-               
-                 background:url(img/star1.png);
-                 background-repeat: no-repeat;
+<style>
+
+    
+.asd{
+    
+    float:left
+}
 
 
-             }
-            
 
+    div img:hover
+    { 
+        content: url('img/star1.png');
+}
+      div img:hover~img
+       { 
+           content: url('img/star1.png');
+    }
 
-             
 </style>
 </head>
 <body>
-   
-        
-                <p class="eee"></p>
-                <p class="ddd"></p>
-                <p class="ccc"></p>
-                <p class="bbb"> </p>
-                <p class="aaa"> </p>
+  
+<div class="asd">
+<img src="img/star0.png" alt="1" style="float: right;">
+<img src="img/star0.png" alt="2" style="float: right;">
+<img src="img/star0.png" alt="3" style="float: right;">
+<img src="img/star0.png" alt="4" style="float: right;">
+<img src="img/star0.png" alt="5" style="float: right;">
+
+</div>
+
 </body>
 </html>

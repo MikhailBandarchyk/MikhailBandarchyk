@@ -5,31 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
- <style>
-bb~aa
-     aa:hover {
-         background:url(img/star1.png);
-     }
-         bb:hover {
-         background:url(img/star1.png);
-         }
-         cc:hover {
-         background:url(img/star1.png);
-         }
-         dd:hover {
-         background:url(img/star1.png);
-         }
-         ee:hover {
-         background:url(img/star1.png);
- }
- </style>
+    <style>
+        .str{
+    display: inline-block;
+    background-image: url("img/star0.png");
+     width: 100%;
+     height: 80px;
+     background-repeat: no-repeat; 
+    
+}
+
+
+
+.str:nth-child:hover ~ .str:nth-child(n+1),
+.str:nth-child:hover ~ .str:nth-child(n+1),
+.str:nth-child:hover ~ .str:nth-child(n+1),
+.str:nth-child:hover ~ .str:nth-child(n+1),
+.str:nth-child:hover ~ .str:nth-child(n+1)
+
+
+{
+ 
+    background-image: url("img/star1.png");
+    width: 100%;
+     height: 80px;
+     
+}
+
+        
+    </style>
 </head>
 <body>
-    !<--<img class="aa" src="img/star0.png ">
-    <img class="bb" src="img/star0.png ">
-    <img class="cc" src="img/star0.png ">
-    <img class="dd" src="img/star0.png ">
-    <img class="ee" src="img/star0.png ">
+    <div class="m">
+        <div class="str"></div>
+        <div class="str"></div>
+        <div class="str"></div>
+        <div class="str"></div>
+        <div class="str"></div>
+        
+ 
+    </div>
 
+
+ 
 </body>
 </html>
