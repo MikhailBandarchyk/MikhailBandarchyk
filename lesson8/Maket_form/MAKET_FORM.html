@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+textarea{
+width: 95%; 
+}
+.odin{
+    width: 100%;
+}
+
+.tri{
+    margin-left: 93px;
+    margin-top: 5px;
+float: left;}
+.shet{
+margin-left: 7px;
+margin-top: 5px;
+}
+.pyti{
+    height: 63px;
+     width: 100%;
+      
+}
+.divv{
+    display: block;
+    margin-left: 180px;
+}
+.divvv{
+    margin-left: 180px;
+}
+.rubr{
+    float: left;
+}
+.publ{
+    float: left;
+}
+
+
+@media (max-width: 527px) {
+.divv{
+     margin-left:1px;
+    }
+  .divvv{
+    margin-left: 1px;
+}
+.rubr{
+    width: 99%;
+}
+.divvvv{
+    margin-left: 1px;
+}
+.publ{
+    width: 99%;
+}
+.tri{
+    margin-left: -1px;
+    float: left;
+}
+.sait{
+    width: 96%;
+    float: left;
+}
+label{
+    
+/* float: left; */width: 49%;}
+.gh{
+    margin-left: -1px;
+float: left;}
+.rt{
+    margin-left: -1px;
+float: left;}
+
+
+.jur{
+float: left;
+width: 96%;
+}
+}
+
+    
+</style>
+   
+</head>
+<body>
+    <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p><br>
+    <form action="http://fe.it-academy.by/TestForm.php">
+        <label for="title" style="float: left;">Название статьи: </label>
+        <div class="divv">
+            <input class="odin" type="text" name="statianame"></div>
+      <label class="rubr"  for="heading">  Рубрика: </label>
+      <div class="divvv">
+      <select class="dva" name="namerubrika" >
+            <option value="7" selected="">программирование</option>
+            <option value="5">графика и дизайн</option>
+            <option value="8">компьютерная техника</option>
+           </select><br>
+        </div>
+        <div class="divvvv">
+        <label class="publ" for="publication">   Публикация: </label>
+        <input class="tri" type="radio" name="radio" value="1">
+        <label class="sait"> на сайте</label>
+           <input class="gh"  type="radio" name="radio" value="2">
+           <label class="jur"> в журнале</label>
+           <input class="rt" type="radio" name="radio" value="3">
+           <label class="sij"> на сайте и журнале<br></label></div>
+         <label class="vb" for="comments"> 
+              Разрешить комментарии:	</label><input class="chet" type="checkbox" name="komment" checked=""><br>
+              <label class="tstat">Текст статьи:</label><br>
+           <textarea class="pyti" name="statia"></textarea><br>
+    <input type="submit" value="Опубликовать">
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="checkbox"]{
+            display: none;
+        }
+        label{
+            position: relative;
+        }
+        label::before{
+            content:"";
+            width: 16px;
+            height: 19px;
+            background: url(img/ch.gif) no-repeat -217px -238px;
+            position: absolute;
+        background-size: 617px;}
+        input:checked + label::before{
+            content:"";
+            width: 16px;
+            height: 19px;
+            background: url(img/ch.gif) no-repeat -217px -213px;
+            position: absolute;
+        background-size: 617px;}
+        
+    </style>
+</head>
+<body>
+    <form action="#">
+       <input type="checkbox" name="asd" id="check">
+        <label for="check"></label>
+    </form>
+    
+    
+</body>
+</html>
